@@ -47,6 +47,10 @@ body {
       color: inherit;
   }
 
+  .nav li {
+      margin-right: 10px;
+  }
+
   .grid {
       display: flex;
       flex-wrap: wrap;
@@ -264,4 +268,8 @@ body {
   .light-btn:disabled {
     color: #4a4a4a;
     background: #292929;
+  }
+
+  .space-between {
+      justify-content: space-between;
   }
